@@ -22,7 +22,7 @@ function Home() {
             </div>
             <div className="home_body">
                 <div className="home_inputContainer">
-                    <Search></Search>
+                    <Search hideButtons></Search>
                 </div>
             </div>
         </div>
