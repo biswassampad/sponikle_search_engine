@@ -22,7 +22,8 @@ function Home() {
             </div>
             <div className="home_body">
                 <div className="home_inputContainer">
-                    <Search hideButtons></Search>
+                    <h1>Sponikle</h1>
+                    <Search></Search>
                 </div>
             </div>
         </div>

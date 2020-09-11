@@ -1,0 +1,126 @@
+.search__pageHeader {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    align-items: flex-start;
+    padding: 30px;
+    border-bottom: 1px solid lightgrey;
+}
+
+
+/* .search__pageLogo {
+    object-fit: contain;
+    height: 50px;
+    margin-right: 50px;
+} */
+
+.search__pageHeader>a {
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.searc__pageHeaderBody>.search>.search__input {
+    margin-top: 0;
+    width: 40vw;
+    margin: unset;
+    max-width: unset;
+}
+
+.search_pageOptions {
+    display: flex;
+    align-items: center;
+    color: grey;
+    margin-top: 1vh;
+}
+
+.search_pageOptionsLeft a,
+.search_pageOptionsRight a {
+    text-decoration: none;
+    color: grey;
+}
+
+.search_pageOptionsLeft,
+.search_pageOptionsRight {
+    display: flex;
+}
+
+.search_pageOptionsRight {
+    margin-left: 20vw;
+}
+
+.search_pageOption {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search_pageOption a {
+    margin-left: 5px;
+}
+
+.searchPage_result {
+    margin: 40px 0;
+}
+
+.search_pageResultCount {
+    color: #70757a;
+    font-size: 14px;
+}
+
+.search_pageResults {
+    margin: 40px 0;
+}
+
+.search_pageResults {
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+.searchPage_resultTitle {
+    padding: 20px;
+}
+
+.SearchTitle {
+    float: left;
+}
+
+.searchPage_resultImage {
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: left;
+}
+
+.searchPage_resultTitle {
+    text-decoration: none;
+    width: 100% !important;
+}
+
+.searchPage_resultTitle:hover {
+    text-decoration: underline;
+}
+
+.searchPage_resultTitle>h2 {
+    font-weight: 500;
+}
+
+.searchPage_resultSnippet {
+    margin-top: 10px;
+}
+
+.search_pageResult {
+    margin-top: 20px;
+    clear: both;
+}
+
+.searchPage_resultLink {
+    float: left;
+}

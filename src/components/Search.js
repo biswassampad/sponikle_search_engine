@@ -6,7 +6,7 @@ import {Button} from '@material-ui/core';
 import {useStateValue} from '../stateProvider';
 import {actionTypes} from "../reducer";
 
-function Search({hideButtons = false}) {
+function Search({hideButtons = false,value}) {
     const [{},dispatch] = useStateValue();
     const [input,setInput] = useState("");
     const history = useHistory();
@@ -25,7 +25,7 @@ function Search({hideButtons = false}) {
         <form className="search">
             <div className="search__input">
                 <SearchIcon className='search__inputIcon' />
-                    <input value={input} onChange={e=>setInput(e.target.value)}/>
+                    <input value={input} onChange={e=>setInput(e.target.value)} value={value} placeholder="What's in your mind today...."/>
             </div>
             {!hideButtons ? (
                 
